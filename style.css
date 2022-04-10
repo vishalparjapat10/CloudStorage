@@ -8,10 +8,19 @@ body {
 }
 
 #product-overview {
-    background: url("freedom.jpg");
+    /* background: url("freedom.jpg"); */
+    background-image: url("images/freedom.jpg");
+    background-size: 100% 100%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
     width: 100%;
     height: 528px;
     padding: 10px;   
+    margin-top: 41px;
+    /* border:5px dashed red ; */
+    position: relative;
 }
 
 .section-title {
@@ -22,6 +31,9 @@ body {
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
 }
 .plan__list{
     width: 80%;
