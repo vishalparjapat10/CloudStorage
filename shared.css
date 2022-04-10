@@ -25,6 +25,13 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
+    display: inline-block;
+    height: 30px;
+}
+
+.main-header__brand img{
+    height: 100%;
+    /* will take the full height of the container which is defined in above selector */
 }
 
 .main-nav {
